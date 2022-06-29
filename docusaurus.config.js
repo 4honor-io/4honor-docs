@@ -57,10 +57,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '4Honor',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo-light.png',
         },
         items: [
           {
@@ -68,12 +68,6 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Docs',
-          },
-          // {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
