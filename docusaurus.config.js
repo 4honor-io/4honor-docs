@@ -79,7 +79,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/getting-started',
+                to: '/docs/intro',
               },
             ],
           },
@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/4honor-io',
               },
             ],
           },
