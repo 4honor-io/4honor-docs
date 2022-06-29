@@ -1,6 +1,6 @@
 # Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+The official website of [4honor.io](https://4honor.io).
 
 ### Installation
 
