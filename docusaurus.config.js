@@ -18,6 +18,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '4honor-io', // Usually your GitHub org/user name.
   projectName: 'webite', // Usually your repo name.
+  trailingSlash: true,
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -51,10 +52,12 @@ const config = {
       navbar: {
         title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: '4honor Logo',
           src: 'img/logo-light.png',
+          href: 'https://4honor.io/',
+          target: '_self',
         },
-        items: [
+       items: [
           {
             type: 'doc',
             docId: 'intro',
@@ -71,7 +74,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/',
               },
             ],
           },
