@@ -21,3 +21,16 @@
   align-items: center;
   justify-content: center;
 }
+
+.mainLogo {
+  margin: auto;
+}
+
+html[data-theme='dark'] .mainLogo {
+  content: url(/img/logo-dark.png);
+}
+
+html[data-theme='light'] .mainLogo {
+  content: url(/img/logo-light.png);
+}
+

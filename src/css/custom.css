@@ -32,3 +32,23 @@
 html[data-theme='dark'] .navbar .navbar__logo {
   content: url(/img/logo-dark.png);
 }
+
+[data-theme='light'] {
+  --ifm-color-primary: #ff9900;
+  --ifm-color-primary-dark: #e68a00;
+  --ifm-color-primary-darker: #d98200;
+  --ifm-color-primary-darkest: #b36b00;
+  --ifm-color-primary-light: #ffa31a;
+  --ifm-color-primary-lighter: #ffa826;
+  --ifm-color-primary-lightest: #ffb84d;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #ffb034;
+  --ifm-color-primary-dark: #ffa415;
+  --ifm-color-primary-darker: #ff9e06;
+  --ifm-color-primary-darkest: #d78300;
+  --ifm-color-primary-light: #ffbc53;
+  --ifm-color-primary-lighter: #ffc262;
+  --ifm-color-primary-lightest: #ffd490;
+}
