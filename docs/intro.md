@@ -86,7 +86,7 @@ Let's suppose we have an achievement `mastery SQL query` (what a common achievem
 You're reading a pull request from one of your teammates and then you see they
 write an amazing fast SQL query.
 
-You decide to give them the achievement `mastery SQL query` because you feel you know
+You decide to give them the achievement `mastery SQL query` because you feel they know
 SQL well.
 
 ---
