@@ -36,7 +36,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/4honor-io/website/tree/main/',
+          editUrl: 'https://github.com/4honor-io/4honor-docs/tree/main/',
         },
         blog: false,
         theme: {
